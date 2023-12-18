@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hexagram</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mystery+Quest&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/x-icon" href="./img/flavicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body onload="loadPosts()">
+    <header class="header">
+        <h1>Hexagram</h1>
+        <nav class="navbar">
+            <img onclick="inactiveButtons()" class="navHouse" src="./img/house.png" alt="Haus">
+            <img onclick="inactiveButtons()" class="navImg" src="./img/bat.png" alt="Fledermaus">
+            <img onclick="inactiveButtons()" class="navImg" src="./img/pentagram.png" alt="Kompass">
+            <img onclick="inactiveButtons()" class="navImg" src="./img/heart.png" alt="Herz">
+            <div class="navProfileContainer">
+                <img onclick="inactiveButtons()" class="navProfile" src="./img/witch.png" alt="Hexe">
+                <span class="profileName">Besen Hilda</span>
+            </div>
+        </nav>
+    </header>
+
+    <div class="headerSeperator"></div>
+
+    <div class="friendsContainer">
+        <div class="friends">
+            <img onclick="inactiveButtons()" src="./img/profile1.jpg">
+            <b><span>Elvira</span></b>
+        </div>
+
+        <div class="friends">
+            <img onclick="inactiveButtons()" src="./img/profile2.jpg">
+            <b><span>Holly</span></b>
+        </div>
+
+        <div class="friends">
+            <img onclick="inactiveButtons()" src="./img/profile3.jpg">
+            <b><span>Kassandra</span></b>
+        </div>
+
+        <div class="friends">
+            <img onclick="inactiveButtons()" src="./img/profile4.jpg">
+            <b><span>Walpurga</span></b>
+        </div>
+    </div>
+
+    <div id="content">
+    </div>
+
+</body>
+
+</html>
